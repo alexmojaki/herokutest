@@ -1,4 +1,6 @@
 setup:
+  addons:	
+    - plan: mongolab:sandbox
   config:
     TEST_VAR: 123
 build:
