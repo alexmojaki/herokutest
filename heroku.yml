@@ -1,0 +1,6 @@
+setup:
+  config:
+    TEST_VAR: 123
+build:
+  docker:
+    worker: Dockerfile
